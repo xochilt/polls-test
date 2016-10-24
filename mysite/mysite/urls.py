@@ -13,3 +13,5 @@ urlpatterns = [
     url(r'^(?P<question_id>[0-9]+)/vote/$', views.vote, name='vote'),
     url(r'^test/$', views.test, name='test'), 
 ]
+
+# url(r'^(?P<pk>\d+)/$', views.DetailView.as_view(), name='detail'),
